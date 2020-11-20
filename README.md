@@ -2,8 +2,7 @@
 A simple whatsapp ui
 
 ### Install
-`npm install` <br />
-<hr />
+`npm install`
 
 ### Usage 
   `npm start`
