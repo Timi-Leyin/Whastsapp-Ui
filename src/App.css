@@ -1,0 +1,10 @@
+.app{
+  display: flex;
+  overflow: hidden;
+}
+
+@media screen and (max-width:800px){
+  .messagesbar{
+    display: none;
+  }
+}

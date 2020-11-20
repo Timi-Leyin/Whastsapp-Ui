@@ -1,0 +1,14 @@
+.messagesbar{
+    /* flex:5; */
+    width: calc(100% - 400px);
+    height: 100vh;
+    background-color: #fafafa;
+    resize: horizontal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-bg{
+    width: 50%;
+}

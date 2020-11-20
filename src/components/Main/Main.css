@@ -1,0 +1,48 @@
+.main {
+    height: 100vh;
+    /* flex:2; */
+    width: 450px;
+}
+
+.main .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee
+}
+
+.main .header img{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+
+
+.main .header .icons {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #ddd; */
+    width: 40%;
+    color: rgb(143, 143, 143);
+    font-size: 18px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.main .header .icons .fa:hover{
+ color: #111;
+}
+
+
+.main .header .icons div {
+    margin: 0 10px;
+}
+
+.main .header .profile-pic-thumbnail >img {
+    width: 50px;
+    object-fit: cover;
+    border-radius: 100px;
+    cursor: pointer;
+}
